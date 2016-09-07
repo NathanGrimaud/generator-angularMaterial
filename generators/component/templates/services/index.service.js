@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('LiveeApp')
+    angular.module('<%= moduleName %>')
         .service('<%= componentName %>', <%= componentName %>Service);
 
     <%= componentName %>Service.$inject = ['$http', '$q'];

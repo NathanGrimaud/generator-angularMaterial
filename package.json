@@ -20,10 +20,11 @@
   },
   "homepage": "https://github.com/NathanGrimaud/LiveeAppGenerator#readme",
   "dependencies": {
+    "replace": "^0.3.0",
     "yeoman-generator": "^0.24.1",
     "yo": "^1.8.5"
   },
-    "files": [
+  "files": [
     "generators/app",
     "generators/router"
   ]

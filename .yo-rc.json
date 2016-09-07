@@ -1,1 +1,7 @@
-{}
+{
+    "generator-liveeapp" : {
+        "moduleName" : "myModule",
+        "routerPath" : "app/src/router.js",
+        "indexPath" : "app/index.html"
+    }
+}
