@@ -1,7 +1,8 @@
 {
     "generator-angularmaterial" : {
         "moduleName" : "myModule",
-        "routerPath" : "app/src/router.js",
-        "indexPath" : "app/index.html"
+        "routerPath" : "test/src/router.js",
+        "indexPath" : "test/index.html",
+        "componentFolderPath" : "test/src/components"
     }
 }

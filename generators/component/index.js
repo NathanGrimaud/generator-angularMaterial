@@ -9,12 +9,13 @@ module.exports = generators.Base.extend({
         console.log(this._moduleName);
         this._routerPath = this.config.get("routerPath");
         this._indexPath = this.config.get("indexPath");
+        this._componentFolderPath = this.config.get("componentFolderPath");
         this.argument('componentName', { type: String, required: true });
     },
 
     // function used to copy the templates
   writing: function () {
-      this._path = `./app/src/components/${this.componentName}`;
+      this._path = `${this._componentFolderPath}/${this.componentName}`;
         this.fs.copyTpl(
             this.templatePath('index.controller.js'),
             this.destinationPath(`${this._path}/${this.componentName}.controller.js`),
@@ -36,7 +37,6 @@ module.exports = generators.Base.extend({
         );
   },
     editing: function(){
-    console.log(this._indexPath,this._moduleName,this._routerPath,this.config.get("moduleName"));
     replace({
         regex: "// auto-generated routes :",
         replacement: createRoutes(this.componentName),
