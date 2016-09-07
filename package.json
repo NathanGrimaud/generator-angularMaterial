@@ -1,5 +1,5 @@
 {
-  "name": "generator-liveeapp",
+  "name": "generator-angularmaterial",
   "version": "1.0.0",
   "description": "A generator to easily create our angular component structure",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NathanGrimaud/LiveeAppGenerator.git"
+    "url": "git+https://github.com/NathanGrimaud/generator-angularMaterial.git"
   },
   "keywords": [
     "yeoman-generator"
@@ -16,9 +16,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NathanGrimaud/LiveeAppGenerator/issues"
+    "url": "https://github.com/NathanGrimaud/generator-angularMaterial/issues"
   },
-  "homepage": "https://github.com/NathanGrimaud/LiveeAppGenerator#readme",
+  "homepage": "https://github.com/NathanGrimaud/generator-angularMaterial#readme",
   "dependencies": {
     "replace": "^0.3.0",
     "yeoman-generator": "^0.24.1",
@@ -26,6 +26,6 @@
   },
   "files": [
     "generators/app",
-    "generators/router"
+    "generators/component"
   ]
 }
