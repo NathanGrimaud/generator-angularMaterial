@@ -1,5 +1,5 @@
 {
-    "generator-liveeapp" : {
+    "generator-angularmaterial" : {
         "moduleName" : "myModule",
         "routerPath" : "app/src/router.js",
         "indexPath" : "app/index.html"

@@ -6,6 +6,7 @@ module.exports = generators.Base.extend({
     constructor: function () {
         generators.Base.apply(this, arguments);
         this._moduleName = this.config.get("moduleName");
+        console.log(this._moduleName);
         this._routerPath = this.config.get("routerPath");
         this._indexPath = this.config.get("indexPath");
         this.argument('componentName', { type: String, required: true });
@@ -34,7 +35,8 @@ module.exports = generators.Base.extend({
             { componentName: this.componentName, moduleName:this._moduleName }
         );
   },
-  editing: function(){
+    editing: function(){
+    console.log(this._indexPath,this._moduleName,this._routerPath,this.config.get("moduleName"));
     replace({
         regex: "// auto-generated routes :",
         replacement: createRoutes(this.componentName),
