@@ -1,0 +1,30 @@
+{
+  "name": "generator-liveeapp",
+  "version": "1.0.0",
+  "description": "A generator to easily create our angular component structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanGrimaud/LiveeAppGenerator.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanGrimaud/LiveeAppGenerator/issues"
+  },
+  "homepage": "https://github.com/NathanGrimaud/LiveeAppGenerator#readme",
+  "dependencies": {
+    "yeoman-generator": "^0.24.1",
+    "yo": "^1.8.5"
+  },
+    "files": [
+    "generators/app",
+    "generators/router"
+  ]
+}
