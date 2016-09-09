@@ -2,7 +2,7 @@
     'use strict';
 
     angular.module('<%= moduleName %>')
-        .service('<%= componentName %>', <%= componentName %>Service);
+        .service('<%= componentName %>Service', <%= componentName %>Service);
 
     <%= componentName %>Service.$inject = ['$http', '$q'];
 
